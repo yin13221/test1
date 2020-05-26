@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/vant-components/index",
+    "pages/joke/joke",
+    "pages/detail/detail",
+    "pages/upload/upload",
+    "pages/addr/addr",
+    "pages/addaddr/addaddr",
+    "pages/confirm/confirm",
+    "pages/addrchoice/addrchoice",
+    "pages/addrchange/addrchange",
+    "pages/dd/dd",
+    "pages/comment/comment",
+    "pages/buy/buy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/resources/首页.png",
+        "selectedIconPath": "/resources/首页_sel.png"
+      },
+      {
+        "pagePath": "pages/vant-components/index",
+        "text": "分类",
+        "iconPath": "/resources/class.png",
+        "selectedIconPath": "/resources/class_sel.png"
+      },
+      {
+        "pagePath": "pages/joke/joke",
+        "text": "购物车",
+        "iconPath": "/resources/cart.png",
+        "selectedIconPath": "/resources/cart_sel.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "/resources/mine.png",
+        "selectedIconPath": "/resources/mine_sel.png"
+      }
+    ]
+  }
+}
